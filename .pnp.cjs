@@ -28,6 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/react", "npm:18.2.14"],\
           ["@types/react-dom", "npm:18.2.6"],\
+          ["@types/styled-components", "npm:5.1.26"],\
           ["@typescript-eslint/eslint-plugin", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:5.60.1"],\
           ["@typescript-eslint/parser", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:5.60.1"],\
           ["@vitejs/plugin-react-swc", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:3.3.2"],\
@@ -36,6 +37,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-refresh", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:0.3.5"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:18.2.0"],\
+          ["react-icons", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:4.10.1"],\
           ["react-router-dom", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:6.14.0"],\
           ["styled-components", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:6.0.1"],\
           ["typescript", "patch:typescript@npm%3A5.1.6#optional!builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
@@ -3262,6 +3264,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/hoist-non-react-statics", [\
+      ["npm:3.3.1", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@types-hoist-non-react-statics-npm-3.3.1-c0081332b2-10.zip/node_modules/@types/hoist-non-react-statics/",\
+        "packageDependencies": [\
+          ["@types/hoist-non-react-statics", "npm:3.3.1"],\
+          ["@types/react", "npm:18.2.14"],\
+          ["hoist-non-react-statics", "npm:3.3.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/json-schema", [\
       ["npm:7.0.12", {\
         "packageLocation": "../../../../.yarn/berry/cache/@types-json-schema-npm-7.0.12-f05cfc0e99-10.zip/node_modules/@types/json-schema/",\
@@ -3316,6 +3329,18 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../.yarn/berry/cache/@types-semver-npm-7.5.0-4823ff34be-10.zip/node_modules/@types/semver/",\
         "packageDependencies": [\
           ["@types/semver", "npm:7.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/styled-components", [\
+      ["npm:5.1.26", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@types-styled-components-npm-5.1.26-aabda06611-10.zip/node_modules/@types/styled-components/",\
+        "packageDependencies": [\
+          ["@types/styled-components", "npm:5.1.26"],\
+          ["@types/hoist-non-react-statics", "npm:3.3.1"],\
+          ["@types/react", "npm:18.2.14"],\
+          ["csstype", "npm:3.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4813,6 +4838,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["hoist-non-react-statics", [\
+      ["npm:3.3.2", {\
+        "packageLocation": "../../../../.yarn/berry/cache/hoist-non-react-statics-npm-3.3.2-e7b709e6c1-10.zip/node_modules/hoist-non-react-statics/",\
+        "packageDependencies": [\
+          ["hoist-non-react-statics", "npm:3.3.2"],\
+          ["react-is", "npm:16.13.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["http-cache-semantics", [\
       ["npm:4.1.1", {\
         "packageLocation": "../../../../.yarn/berry/cache/http-cache-semantics-npm-4.1.1-1120131375-10.zip/node_modules/http-cache-semantics/",\
@@ -5581,6 +5616,7 @@ const RAW_RUNTIME_STATE =
           ["pelisreactts", "workspace:."],\
           ["@types/react", "npm:18.2.14"],\
           ["@types/react-dom", "npm:18.2.6"],\
+          ["@types/styled-components", "npm:5.1.26"],\
           ["@typescript-eslint/eslint-plugin", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:5.60.1"],\
           ["@typescript-eslint/parser", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:5.60.1"],\
           ["@vitejs/plugin-react-swc", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:3.3.2"],\
@@ -5589,6 +5625,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-refresh", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:0.3.5"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:18.2.0"],\
+          ["react-icons", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:4.10.1"],\
           ["react-router-dom", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:6.14.0"],\
           ["styled-components", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:6.0.1"],\
           ["typescript", "patch:typescript@npm%3A5.1.6#optional!builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
@@ -5713,6 +5750,37 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/react",\
           "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-icons", [\
+      ["npm:4.10.1", {\
+        "packageLocation": "../../../../.yarn/berry/cache/react-icons-npm-4.10.1-74abe904b6-10.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "npm:4.10.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:4.10.1", {\
+        "packageLocation": "./.yarn/__virtual__/react-icons-virtual-7aa5cb9f4c/5/.yarn/berry/cache/react-icons-npm-4.10.1-74abe904b6-10.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "virtual:46bb0c81394a049075d4f60012fbb9950217052329b4068076607eefd1c1e5e16fd4024e8682a4ddb05428ff05f426ed1b0ff6a91f4e6605e3c02520df9e0b49#npm:4.10.1"],\
+          ["@types/react", "npm:18.2.14"],\
+          ["react", "npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-is", [\
+      ["npm:16.13.1", {\
+        "packageLocation": "../../../../.yarn/berry/cache/react-is-npm-16.13.1-a9b9382b4f-10.zip/node_modules/react-is/",\
+        "packageDependencies": [\
+          ["react-is", "npm:16.13.1"]\
         ],\
         "linkType": "HARD"\
       }]\

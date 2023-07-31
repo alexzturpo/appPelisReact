@@ -10,6 +10,6 @@ const Main = ():JSX.Element => {
                 <Info/>
             </Flex>
         </>
-    )
+    ) 
 }
 export default Main

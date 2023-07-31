@@ -1,4 +1,10 @@
+
 const Detail = ():JSX.Element=>{
-    return(<>Hola Detalle</>)
+    return(<>
+        <h1>hola detalle</h1>
+        <h1>hola detalle</h1>
+        <h1>hola detalle</h1>
+        <h1>hola detalle</h1>
+    </>)
 }
 export default Detail

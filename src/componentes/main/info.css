@@ -1,0 +1,55 @@
+.title-info{
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 0 0 30px #EEE2DE;
+
+}
+.detail-info{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+.heros-icon{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+
+.starts{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.starts>*{
+    padding: 0 5px;
+}
+.icon-play{
+    cursor: pointer;
+    filter: drop-shadow(0 0 .2rem crimson);
+    padding-top: 20px;
+}
+.descripcion{
+    width: 90%;
+    margin: auto;
+}
+.descrip-title{
+    font-size: 2rem;
+    margin: 10px 0;
+}
+.descrip{
+    text-align: justify;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.buy:hover {
+    filter: brightness(1.75);
+}
